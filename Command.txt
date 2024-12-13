@@ -1,0 +1,12 @@
+git init
+git add MyFile.txt
+git commit -m "Add MyFile.txt with personal details"
+
+mkdir Info
+touch Info/InfoFile1 Info/InfoFile2
+git add Info/
+git commit -m "Add Info folder with InfoFile1 and InfoFile2"
+
+# Updated the Git username for this project
+git config user.name dsapkota_INFO
+git config user.name  # Verify the username
